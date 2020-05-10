@@ -1,0 +1,29 @@
+{
+	"name": "has-package-self-reference",
+	"version": "0.0.0",
+	"description": "Does the current node version have support for requiring/importing its own name?",
+	"main": "index.js",
+	"exports": "./index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/inspect-js/has-package-self-reference.git"
+	},
+	"keywords": [
+		"exports",
+		"self-reference",
+		"self",
+		"package",
+		"name",
+		"esm",
+		"modules"
+	],
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/inspect-js/has-package-self-reference/issues"
+	},
+	"homepage": "https://github.com/inspect-js/has-package-self-reference#readme"
+}
