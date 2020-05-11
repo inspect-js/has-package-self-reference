@@ -2,8 +2,18 @@
 	"name": "has-package-self-reference",
 	"version": "0.0.0",
 	"description": "Does the current node version have support for requiring/importing its own name?",
+	"browser": "./browser.js",
 	"main": "index.js",
-	"exports": "./index.js",
+	"exports": {
+		".": [
+			{
+				"browser": "./browser.js",
+				"default": "./index.js"
+			},
+			"./index.js"
+		],
+		"./package.json": "./package.json"
+	},
 	"scripts": {
 		"lint": "eslint .",
 		"pretest": "npm run lint",
@@ -28,6 +38,12 @@
 		"url": "https://github.com/inspect-js/has-package-self-reference/issues"
 	},
 	"homepage": "https://github.com/inspect-js/has-package-self-reference#readme",
+	"dependencies": {
+		"@ljharb/self-references": "file:./packages/self-references/"
+	},
+	"engines": {
+		"node": ">= 0.4"
+	},
 	"devDependencies": {
 		"@ljharb/eslint-config": "^17.0.0",
 		"eslint": "^7.0.0"

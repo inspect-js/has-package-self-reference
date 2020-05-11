@@ -1,0 +1,12 @@
+{
+	"name": "@ljharb/self-references",
+	"version": "0.0.0",
+	"private": true,
+	"main": "./index.js",
+	"exports": {
+		".": "./index.js"
+	},
+	"dependencies": {
+		"@ljharb/self-references": "file:../self-references-inner/"
+	}
+}
