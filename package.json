@@ -5,6 +5,8 @@
 	"main": "index.js",
 	"exports": "./index.js",
 	"scripts": {
+		"lint": "eslint .",
+		"pretest": "npm run lint",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
@@ -25,5 +27,9 @@
 	"bugs": {
 		"url": "https://github.com/inspect-js/has-package-self-reference/issues"
 	},
-	"homepage": "https://github.com/inspect-js/has-package-self-reference#readme"
+	"homepage": "https://github.com/inspect-js/has-package-self-reference#readme",
+	"devDependencies": {
+		"@ljharb/eslint-config": "^17.0.0",
+		"eslint": "^7.0.0"
+	}
 }
