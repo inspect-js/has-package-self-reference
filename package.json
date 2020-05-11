@@ -17,7 +17,8 @@
 	"scripts": {
 		"lint": "eslint .",
 		"pretest": "npm run lint",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"tests-only": "tape 'test/**'",
+		"test": "npm run tests-only"
 	},
 	"repository": {
 		"type": "git",
@@ -46,6 +47,13 @@
 	},
 	"devDependencies": {
 		"@ljharb/eslint-config": "^17.0.0",
-		"eslint": "^7.0.0"
+		"eslint": "^7.0.0",
+		"semver": "^6.3.0",
+		"tape": "^5.0.0"
+	},
+	"greenkeeper": {
+		"ignore": [
+			"semver"
+		]
 	}
 }
