@@ -8,7 +8,7 @@ var spawnSync = typeof window === 'undefined' && require('child_process').spawnS
 var hasPackageSelfReference = require('..');
 
 test('has-package-self-reference', function (t) {
-	var expected = typeof window === 'undefined' ? semver.satisfies(process.version, '>= 13.7 || =12.16.0') : null;
+	var expected = typeof window === 'undefined' ? semver.satisfies(process.version, '>= 13.7 || =12.16.0 || ^12.17.0') : null;
 	t.equal(hasPackageSelfReference, expected, 'module exports expected value: ' + expected);
 
 	t.test('experimental warning', { skip: !spawnSync || process.env.RECURSION }, function (st) {
