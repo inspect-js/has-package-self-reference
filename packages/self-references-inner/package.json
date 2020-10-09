@@ -1,5 +1,17 @@
 {
 	"name": "@ljharb/self-references",
-	"version": "0.0.0",
-	"private": true
+	"version": "0.0.0-inner.0",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/inspect-js/has-package-self-reference.git"
+	},
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/inspect-js/has-package-self-reference/issues"
+	},
+	"homepage": "https://github.com/inspect-js/has-package-self-reference#readme",
+	"publishConfig": {
+		"access": "public"
+	}
 }

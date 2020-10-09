@@ -46,7 +46,7 @@
 	},
 	"homepage": "https://github.com/inspect-js/has-package-self-reference#readme",
 	"dependencies": {
-		"@ljharb/self-references": "file:./packages/self-references/"
+		"@ljharb/self-references": "outer"
 	},
 	"engines": {
 		"node": ">= 0.4"
