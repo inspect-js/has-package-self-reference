@@ -52,9 +52,9 @@
 		"node": ">= 0.4"
 	},
 	"devDependencies": {
-		"@ljharb/eslint-config": "^17.1.0",
-		"auto-changelog": "^2.0.0",
-		"eslint": "^7.1.0",
+		"@ljharb/eslint-config": "^17.2.0",
+		"auto-changelog": "^2.2.1",
+		"eslint": "^7.10.0",
 		"safe-publish-latest": "^1.1.4",
 		"semver": "^6.3.0",
 		"tape": "^5.0.1"
@@ -69,6 +69,7 @@
 		"template": "keepachangelog",
 		"unreleased": false,
 		"commitLimit": false,
-		"backfillLimit": false
+		"backfillLimit": false,
+		"hideCredit": true
 	}
 }
