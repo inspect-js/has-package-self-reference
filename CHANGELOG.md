@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.1](https://github.com/inspect-js/has-package-self-reference/compare/v1.0.0...v1.0.1) - 2020-10-28
+
+### Commits
+
+- [Fix] apparently npm does not offer a way to force a node_modules structure [`30b5393`](https://github.com/inspect-js/has-package-self-reference/commit/30b539304e94c3e893273acdbe81b55664924059)
+- [Fix] publish subpackages as real packages, since npm &lt; 7 breaks with published file deps [`5934fea`](https://github.com/inspect-js/has-package-self-reference/commit/5934fea6ce03b697b9a525f20bd3fc946f89cbc0)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `auto-changelog` [`8f2be18`](https://github.com/inspect-js/has-package-self-reference/commit/8f2be18383913ed6294ae0956ba3e842b9e57b82)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `tape` [`3f36bae`](https://github.com/inspect-js/has-package-self-reference/commit/3f36baebdc03c84a70a1e32e168f4aa2fb6b1df2)
+- [Dev Deps] update `eslint` [`2b059fb`](https://github.com/inspect-js/has-package-self-reference/commit/2b059fb59c3286973e1fb6fa93f2415f1040e1c3)
+- [Tests] `node` `v12.17` supports package self-reference [`6808699`](https://github.com/inspect-js/has-package-self-reference/commit/6808699278cdeb835d58dc0d467f9a63e22abdd9)
+
 ## v1.0.0 - 2020-05-21
 
 ### Commits
