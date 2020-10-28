@@ -2,8 +2,8 @@
 
 var supports = false;
 try {
-	// eslint-disable-next-line global-require
-	supports = !!require('@ljharb/self-references');
+	require.resolve('has-package-self-reference');
+	supports = true;
 } catch (e) {
 }
 
