@@ -15,7 +15,6 @@ jobs:
           command: 'pretest'
 
   posttest:
-    if: false
     runs-on: ubuntu-latest
 
     steps:
