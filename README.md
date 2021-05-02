@@ -11,7 +11,7 @@
 
 Does the current node version have support for requiring/importing its own name?
 
-At the time of this writing, node v13+ has support for [self-referencing a package‘s name to access its "exports"](https://nodejs.org/api/esm.html#esm_self_referencing_a_package_using_its_name).
+At the time of this writing, node v12.17+ and v13.7+ has support for [self-referencing a package‘s name to access its "exports"](https://nodejs.org/api/esm.html#esm_self_referencing_a_package_using_its_name).
 
 This library exports `true` if the current node version supports it, `false` if it does not, and `null` if it's in a browser.
 
