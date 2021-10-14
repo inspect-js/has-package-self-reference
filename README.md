@@ -1,6 +1,7 @@
-
 # has-package-self-reference <sup>[![Version Badge][npm-version-svg]][package-url]</sup>
 
+[![github actions][actions-image]][actions-url]
+[![coverage][codecov-image]][codecov-url]
 [![dependency status][deps-svg]][deps-url]
 [![dev dependency status][dev-deps-svg]][dev-deps-url]
 [![License][license-image]][license-url]
@@ -28,3 +29,7 @@ Simply clone the repo, `npm install`, and run `npm test`
 [license-url]: LICENSE
 [downloads-image]: https://img.shields.io/npm/dm/has-package-self-reference.svg
 [downloads-url]: https://npm-stat.com/charts.html?package=has-package-self-reference
+[codecov-image]: https://codecov.io/gh/inspect-js/has-package-self-reference/branch/main/graphs/badge.svg
+[codecov-url]: https://app.codecov.io/gh/inspect-js/has-package-self-reference/
+[actions-image]: https://img.shields.io/endpoint?url=https://github-actions-badge-u3jn4tfpocch.runkit.sh/inspect-js/has-package-self-reference
+[actions-url]: https://github.com/inspect-js/has-package-self-reference/actions
